@@ -5,7 +5,7 @@ const socket = require("socket.io")
 const app = express()
 
 const users = [{}]
-app.use(cors({origin:"http://localhost:3000"}))
+app.use(cors({origin:"https://chatsapp.heisenberg.in.net"}))
 
 app.get("/",(req,res)=>{res.json('yuyuyuyuyuyuyuyu')})
 
